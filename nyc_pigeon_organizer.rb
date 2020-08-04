@@ -17,5 +17,10 @@ def nyc_pigeon_organizer(data)
       pigeon_hash[name][:color] << key.to_s
     end
   end
+  data[:lives].each do |key, value|
+    value.each do |name|
+      pigeon_hash[name][:lives] << key
+    end
+  end
   return pigeon_hash
 end
