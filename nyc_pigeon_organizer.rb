@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   data[:gender].each do |key, value|
     value.each do |name|
       pigeon_hash[name] = {
-        gender: key.to_s
+        gender: [key.to_s]
       }
     end
   end
