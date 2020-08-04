@@ -42,3 +42,5 @@ def nyc_pigeon_organizer_bad(data)
   end
   return pigeon_hash
 end
+
+binding.pry
