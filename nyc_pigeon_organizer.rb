@@ -42,5 +42,3 @@ end
 #  end
 #  return pigeon_hash
 #end
-
-binding.pry
