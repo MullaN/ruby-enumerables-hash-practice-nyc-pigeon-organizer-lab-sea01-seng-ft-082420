@@ -6,9 +6,12 @@ def nyc_pigeon_organizer(data)
   data[:gender].each do |key, value|
     value.each do |name|
       pigeon_hash[name] = {
-        gender: [key.to_s]
+        color: [],
+        gender: [key.to_s],
+        lives: []
       }
     end
   end
+  data[:color]
   return pigeon_hash
 end
