@@ -1,5 +1,3 @@
-require 'pry'
-
 def nyc_pigeon_organizer(data)
   pigeon_hash = {}
   data.each do |desc_key, desc_hash|
