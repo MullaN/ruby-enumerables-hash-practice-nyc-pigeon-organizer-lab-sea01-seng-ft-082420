@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
             gender: [],
             lives: []
           }
+        end
         pigeon_hash[name][desc] << key.to_s
       end
     end
