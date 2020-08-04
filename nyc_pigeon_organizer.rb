@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
             lives: []
           }
         end
-        pigeon_hash[name][desc] << key.to_s
+        pigeon_hash[name][desc_key] << key.to_s
       end
     end
   end
