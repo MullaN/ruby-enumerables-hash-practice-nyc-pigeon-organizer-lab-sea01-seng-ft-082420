@@ -3,6 +3,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   pigeon_hash = {}
   data.each do |desc_key, desc_hash|
+    binding.pry
     data[desc_key].each do |key, value|
       value.each do |name|
         if pigeon_hash[name]
